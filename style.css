@@ -1,0 +1,127 @@
+p{
+    font-family: sans-serif;
+    word-spacing: 5px;
+    color:black;
+
+}
+
+header{
+
+    font-family:'Indie Flower', cursive;
+}
+
+h1,h2{
+    
+    font-family:'Indie Flower', cursive;
+
+
+}
+a:visited{
+
+    color: red;
+}
+
+a:hover{
+    color:blue;
+
+}
+
+a:active{
+
+    color:green;
+}
+
+
+
+body{
+    width: 90%;
+    margin-top: 100px;
+    margin-right: 120px;
+    margin-bottom: 100px;
+    margin-left:100px;
+    background-color:blue;
+    background-image: linear-gradient(#41568F,#9AAABB);
+    background-image: url(https://images.unsplash.com/photo-1527769929977-c341ee9f2033?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+    
+}
+
+
+blockquote{
+
+    margin: 50px;
+    font-size:160%;
+    background-color:gray;
+    text-indent: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-style: italic;
+
+
+}
+
+
+header{
+    background-color: yellow;
+    font-family: 'Indie Flower', cursive;
+}
+
+
+
+.farm{
+    border-left-style: solid;
+    border-left-color: yellow;
+    border-left-width: 4px;
+}
+
+.vil{
+    border-left-style: solid;
+    border-left-color: green;
+    border-left-width: 4px;
+
+}
+
+.goede,.goed{
+
+    color: green;
+
+}
+
+.slechte,.slecht{
+    color:red;
+}
+
+tr:nth-child(even){
+    background-color:#f2f2f2;
+
+}
+
+.lijst1{
+    
+    background-image: url(https://raw.githubusercontent.com/becodeorg/GNK-Holberton-1.9/master/01-De-weide/02-html-css/progressive-enhancement/bien.png?token=AsaBrzZNS-Ua6g2aE7R6Qv8A5CVaMGw_ks5cXAkwwA%3D%3D);
+    background-position: right;
+    background-repeat: no-repeat;
+    padding:30px;
+}
+
+.lijst2{
+    background-image: url(https://github.com/becodeorg/GNK-Holberton-1.9/blob/master/01-De-weide/02-html-css/progressive-enhancement/mal.png?raw=true);
+    background-position: right;
+    background-repeat: no-repeat;
+    padding:30px;
+
+}
+
+.lijst3{
+    background-image: url(https://github.com/becodeorg/GNK-Holberton-1.9/blob/master/01-De-weide/02-html-css/progressive-enhancement/chat.png?raw=true);
+    background-position: right;
+    background-repeat:no-repeat;
+    padding: 30px;
+
+}
+.image{
+    float: inherit;
+    margin: 40px;
+}
